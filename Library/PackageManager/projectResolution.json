@@ -1,0 +1,103 @@
+{
+  "context": {
+    "projectPath": "C:/Users/CARLAENCINAS/Desktop/SEXTO_SEMESTRE/MULTIMEDIA/VIDEOGAMES/PROYECTO INICIAL/Packages",
+    "unityVersion": "6000.3.16f1"
+  },
+  "inputs": [
+    "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Packages\\manifest.json",
+    "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity 6000.3.16f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.2d.sprite@3cb28db060cf",
+      "fingerprint": "3cb28db060cf0a2ceda53bc19357d424311f2dcd",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "C:\\Users\\CARLAENCINAS\\Desktop\\SEXTO_SEMESTRE\\MULTIMEDIA\\VIDEOGAMES\\PROYECTO INICIAL\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    }
+  }
+}
