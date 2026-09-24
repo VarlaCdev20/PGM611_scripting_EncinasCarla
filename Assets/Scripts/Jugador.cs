@@ -9,6 +9,13 @@ namespace logica_jugador
         private Rigidbody2D rb;
         private float movimiento;
 
+        public float alturaSalto = 4f;
+        private bool esPiso;
+
+        public Transform comprobadorPiso;
+        public float radioComprobadorPiso = 0.1f;
+        public LayerMask layerPiso;
+
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -31,10 +38,26 @@ namespace logica_jugador
                     1
                 );
             }
+
+            if (Input.GetButtonDown("Jump") && esPiso)
+            {
+                rb.linearVelocity = new Vector2(
+                    rb.linearVelocity.x,
+                    alturaSalto
+                );
+            }
+        }
+
+        void FixedUpdate()
+        {
+            esPiso = Physics2D.OverlapCircle(
+                comprobadorPiso.position,
+                radioComprobadorPiso,
+                layerPiso
+            );
         }
     }
 }
-
 public class Enemigo
 {
 
