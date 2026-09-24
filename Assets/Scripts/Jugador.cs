@@ -16,9 +16,13 @@ namespace logica_jugador
         public float radioComprobadorPiso = 0.1f;
         public LayerMask layerPiso;
 
+        // Animator del personaje
+        private Animator animator;
+
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            animator = GetComponent<Animator>();
         }
 
         void Update()
@@ -46,6 +50,20 @@ namespace logica_jugador
                     alturaSalto
                 );
             }
+
+            // Envía la velocidad horizontal al Animator
+            animator.SetFloat(
+                "Velocidad",
+                Mathf.Abs(movimiento)
+            );
+            animator.SetFloat(
+                  "VelocidadVertical",
+                rb.linearVelocity.y
+                  );
+                  animator.SetBool(
+               "estaEnPiso",
+                    esPiso
+                        );
         }
 
         void FixedUpdate()
@@ -58,6 +76,7 @@ namespace logica_jugador
         }
     }
 }
+
 public class Enemigo
 {
 
